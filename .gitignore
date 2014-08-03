@@ -12,6 +12,7 @@ secret_token.rb
 # Ignore all logfiles and tempfiles.
 *.rbc
 capybara-*.html
+.rspec
 /log
 /tmp
 /db/*.sqlite3
