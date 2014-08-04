@@ -3,6 +3,8 @@ class LeaguesController < ApplicationController
 		render json: League.all
 	end	
 
+	private
+
 	def default_serializer_options
 	  {
 	    root: false
